@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: auto;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container{
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+header{
+  display: block;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+header img{
+  width: 25%;
+  height: auto;
+}
+header h1{
+  color: #00dd00;
+  padding-bottom: 1rem;
+}
+nav{
+  width: 85%;
+  background-color: #00dd00;
+  padding: 8px;
+}
+.scooter{
+  padding-bottom: 30px;
+  color:white;
+  line-height: 28px;
+  width: 85%;
+}
+
+.scooter h1{
+  display: inline-block;
+  font-size: 25px;
+}
+.scooter >p:first-of-type::before{
+content: "\21A6";
+margin-right: 3px;
+}
+.scooter > p:last-of-type{
+  font-size: 18px;
+}
+.scooter input[type="checkbox"]{
+  margin-right: 5px;
+}
+
+.charge{
+  border-radius: 5px;
+  margin: 0;
+  padding: 15px;
+}
+
+.full{
+  width: 60%;
+  background-color: #1ec31e;
+}
+
+.medium{
+  width: 30%;
+  background-color: #f5b453;
+}
+.low{
+width: 15%;
+background-color: #be4141;
+}
+footer{
+  padding: 30px;
+}
